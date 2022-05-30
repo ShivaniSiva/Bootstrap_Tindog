@@ -3,7 +3,7 @@ body{
 }
 #title{
     background-color:#ff4c68;
-    color:rgb(64, 99, 255);
+    color:#fff;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -13,6 +13,18 @@ h1{
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
+}
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
 }
 #Brand{
     font-size: 3rem;
@@ -31,7 +43,7 @@ h1{
 }
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Montserrat-Light';
+    font-weight: 400;
 }
 .Download-button{
     margin: 5% 3% 5% 0;
@@ -42,7 +54,8 @@ h1{
     transform: rotate(25deg);
 }
 .features-icon{
-    color:#ffa0ae;
+    color:#fdc1b9;
+    margin-bottom: 10px;
     
 }
 .features-icon:hover{
@@ -53,4 +66,26 @@ h1{
 }
 .feature-box{
     text-align: center;
+}
+#testimonials {
+    text-align: center;
+    background-color: #fdc1b9;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+}
+.carousel-item{
+    padding: 5% 17%;
+
+}
+#press{
+    background-color: #fdc1b9;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
 }

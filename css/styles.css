@@ -132,3 +132,26 @@ p{
     color: #ff4c68;
     padding: 3% 2%;
 }
+.Download-button2{
+    margin: 5% 2.5%;
+}
+.pricing-button{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.pricing-button-outline{
+    background-color: #fff;
+    border: 2px solid#ff4c68;
+}
+.pricing-button-outline:hover{
+    background-color: #ff4c68;
+    color: #fff; 
+}
+.pricing-button:hover{
+    color: #fff;
+    background-color: #fdc1b9;
+}
+.pricing-h2-p{
+    text-align: center;
+}
+

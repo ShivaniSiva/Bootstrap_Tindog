@@ -89,3 +89,46 @@ p{
     width: 15%;
     padding: 20px 20px 50px;
 }
+#pricing{
+    padding:100px;
+}
+.pricing-col{
+    
+  
+}
+.card-body{
+    text-align: center;
+}
+.card-header{
+    text-align: center;
+}
+
+
+@media (max-width:1028px){
+#title {
+    text-align: center;
+}
+.title-img{
+    position: static;
+    transform: rotate(0);
+}
+}
+#cta{
+    background-color: #fdc1b9;
+    text-align: center;
+    padding: 13%;
+    color: #fff;
+}
+#footer{
+    padding: 3% 3%;
+    font-family: 'Montserrat-bold';
+    text-align: center;
+}
+.brands{
+    color: #fdc1b9;
+    padding: 3% 2%;
+}
+.brands:hover{
+    color: #ff4c68;
+    padding: 3% 2%;
+}
